@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+body {
+  background-color: #3582e7;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+  position: relative;
+}
+
+body main #b1 {
+  position: absolute;
+  top: 11rem;
+  left: 26rem;
+}
+
+body main #b2 {
+  position: absolute;
+  bottom: 11rem;
+  right: 25rem;
+}
+
+body .container {
+  width: 15rem;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+body input {
+  height: 1.3rem;
+  border-radius: .3em;
+  border: none;
+}
+
+body #binary {
+  text-align: center;
+  font-family: monospace;
+}
+/*# sourceMappingURL=style.css.map */
