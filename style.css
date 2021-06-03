@@ -20,16 +20,17 @@ body main {
   position: relative;
 }
 
-body main #b1 {
-  position: absolute;
-  top: 11rem;
-  left: 26rem;
+ #b1 {
+  position: relative;
+  bottom:5rem;
+  left: -3rem;
+  
 }
-
-body main #b2 {
-  position: absolute;
-  bottom: 11rem;
-  right: 25rem;
+ #b2 {
+  position: relative;
+  top:5rem;
+  right: -3rem;
+ 
 }
 
 body .container {
@@ -42,6 +43,7 @@ body .container {
   border-radius: 10px;
   padding: 1rem;
   border-radius: 1rem;
+  position: absolute;
 }
 
 body input {
